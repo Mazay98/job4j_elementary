@@ -1,7 +1,7 @@
 package ru.job4j.calculate;
 
 public class DataTypes {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         byte age = 21;
         char gender = 'M';
         float height = (float) 184.3;
