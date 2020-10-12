@@ -12,25 +12,25 @@ public class X2Test {
     }
 
     @Test
-    public void whenA1B1C1X1Then() {
+    public void whenA1B1C1X1Then3() {
         int rsl = X2.calc(1, 1, 1, 1);
         Assert.assertEquals(3, rsl);
     }
 
     @Test
-    public void whenA0B1C1X1Then() {
+    public void whenA0B1C1X1Then2() {
         int rsl = X2.calc(0, 1, 1, 1);
         Assert.assertEquals(2, rsl);
     }
 
     @Test
-    public void whenA1B1C0X1Then() {
+    public void whenA1B1C0X1Then2() {
         int rsl = X2.calc(1, 1, 0, 1);
         Assert.assertEquals(2, rsl);
     }
 
     @Test
-    public void whenA1B1C1X0Then() {
+    public void whenA1B1C1X0Then1() {
         int rsl = X2.calc(1, 1, 1, 0);
         Assert.assertEquals(1, rsl);
     }
