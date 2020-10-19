@@ -5,5 +5,8 @@ public class ArrayDefinition {
         short[] ages = new short[10];
         String[] surnames = new String[100500];
         float[] prices = new float[40];
+        System.out.println("Ages " + ages.length);
+        System.out.println("Surnames " + surnames.length);
+        System.out.println("Prices " + prices.length);
     }
 }
