@@ -12,7 +12,7 @@ public class Machine {
         for (int i = size; i < COINS.length; i++) {
             while (sum >= COINS[i]) {
                 sum -= COINS[i];
-                rsl[i] = COINS[i];
+                rsl[size] = COINS[i];
                 size++;
             }
         }
