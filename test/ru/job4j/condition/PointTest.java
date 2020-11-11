@@ -36,4 +36,20 @@ public class PointTest {
         double out = a.distance(b);
         Assert.assertEquals(533.87, out, 0.01);
     }
+
+    @Test
+    public void when3dPointThen554() {
+        Point a = new Point(620, 0, 5);
+        Point b = new Point(125, 200 , 154);
+        double out = a.distance3d(b);
+        Assert.assertEquals(554.27, out, 0.01);
+    }
+
+    @Test
+    public void when3dPointThen133() {
+        Point a = new Point(0, 1, 5);
+        Point b = new Point(50, 125 , 13);
+        double out = a.distance3d(b);
+        Assert.assertEquals(133.94, out, 0.01);
+    }
 }
